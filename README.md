@@ -13,4 +13,4 @@ This is a tool to update your user page automatically based on your last Wikiped
 * Initialize a file `user_data.json` with a dictionary containing "username" and "password".
 * Test your user page by making a recent edit and setting your status to `away` manually.
 * Run `crontab -e`.
-* Add the following line `3 *  * * *  bash /absolute/path/to/onlinebot/run_wiki_online.sh 2>>/tmp/errors1`
+* Add the following line `6 *  * * *  bash /absolute/path/to/onlinebot/run_wiki_online.sh 2>>/tmp/errors1`
