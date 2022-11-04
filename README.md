@@ -1,7 +1,7 @@
 # Wikipedia Online Status Updater
 This is a tool to update your user page automatically based on your last Wikipedia edit. To use this script, a UserStatus template must be active on your Wikipedia user page. 
-* If you have not edited for 10 minutes, your status is set to `away`.
-* If you have editing within the past 10 minutes, your status is set to `online`.
+* If you have not edited for 5 to 10 minutes, your status is set to `away`.
+* If you have editing within the past 5 to 10 minutes, your status is set to `online`.
 
 ## Setting up your Wikipedia page
 * Create a User:<WP_USERNAME>/Status page.
